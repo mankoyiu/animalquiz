@@ -1,0 +1,33 @@
+.container {
+  max-width: 700px;
+  margin: 2rem auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 2rem;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+}
+.listItem {
+  flex: 1 1 120px;
+  background: #e0f7fa;
+  border-radius: 8px;
+  text-align: center;
+  padding: 1rem;
+  transition: box-shadow 0.2s;
+}
+.listItem:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 40px;
+  margin-bottom: 0.5rem;
+}

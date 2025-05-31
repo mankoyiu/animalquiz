@@ -1,0 +1,11 @@
+diff --git a/node_modules/rc-picker/es/locale/en_US.js b/node_modules/rc-picker/es/locale/en_US.js
+index a63c266..a6c5e5c 100644
+--- a/node_modules/rc-picker/es/locale/en_US.js
++++ b/node_modules/rc-picker/es/locale/en_US.js
+@@ -1,5 +1,5 @@
+ import _objectSpread from "@babel/runtime/helpers/esm/objectSpread2";
+-import { commonLocale } from "./common";
++import { commonLocale } from "./common.js";
+ var locale = _objectSpread(_objectSpread({}, commonLocale), {}, {
+   locale: 'en_US',
+   today: 'Today',

@@ -1,0 +1,28 @@
+diff --git a/node_modules/rc-util/es/ref.js b/node_modules/rc-util/es/ref.js
+index 7ccaf2c..3ef89d0 100644
+--- a/node_modules/rc-util/es/ref.js
++++ b/node_modules/rc-util/es/ref.js
+@@ -1,8 +1,8 @@
+ import _typeof from "@babel/runtime/helpers/esm/typeof";
+ import { isValidElement, version } from 'react';
+ import { ForwardRef, isMemo } from 'react-is';
+-import useMemo from "./hooks/useMemo";
+-import isFragment from "./React/isFragment";
++import useMemo from "./hooks/useMemo.js";
++import isFragment from "./React/isFragment.js";
+ var ReactMajorVersion = Number(version.split('.')[0]);
+ export var fillRef = function fillRef(ref, node) {
+   if (typeof ref === 'function') {
+diff --git a/node_modules/rc-util/es/utils/set.js b/node_modules/rc-util/es/utils/set.js
+index 4224e82..fa106cd 100644
+--- a/node_modules/rc-util/es/utils/set.js
++++ b/node_modules/rc-util/es/utils/set.js
+@@ -2,7 +2,7 @@ import _typeof from "@babel/runtime/helpers/esm/typeof";
+ import _objectSpread from "@babel/runtime/helpers/esm/objectSpread2";
+ import _toConsumableArray from "@babel/runtime/helpers/esm/toConsumableArray";
+ import _toArray from "@babel/runtime/helpers/esm/toArray";
+-import get from "./get";
++import get from "./get.js";
+ function internalSet(entity, paths, value, removeIfUndefined) {
+   if (!paths.length) {
+     return value;

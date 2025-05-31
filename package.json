@@ -1,0 +1,28 @@
+{
+  "name": "happy-animals",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "postinstall": "patch-package"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^7.1.0",
+    "@mui/material": "^7.1.0",
+    "next": "14.2.4",
+    "react": "18.2.0",
+    "react-datepicker": "^8.4.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.30",
+    "@types/react": "18.2.72",
+    "@types/react-dom": "18.2.19",
+    "patch-package": "^8.0.0",
+    "typescript": "5.4.5"
+  }
+}
